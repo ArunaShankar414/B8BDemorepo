@@ -30,7 +30,7 @@ def connect(conn_parameter):
         except (Exception,psycopg2.DatabaseError)as error:
             print(error)
             #sys.exit(1)
-        print("Successfully connected")
+        print("Successfully connected (1)")
         return conn
 conn=connect(conn_parameter)
 print(conn)

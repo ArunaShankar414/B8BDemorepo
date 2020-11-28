@@ -6,7 +6,7 @@ from psycopg2 import errors
  #Specification of Connection
 conn_parameter= {
     "host"   : "localhost",
-    "database" : "Demodb",
+    "database" : "b8bREPOSITORYdb",
     "user"   : "Aruna",
     "password" : "aruna"
 }
